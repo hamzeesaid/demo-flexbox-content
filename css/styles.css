@@ -26,7 +26,7 @@ li {
 
 .d {
     background-color: #3cb371;
-    /* font-size: 72px; */
+     font-size: 72px;
 }
 
 .e {
@@ -35,4 +35,23 @@ li {
 
 .f {
     background-color: #9370db;
+}
+
+ul,flex{
+    display: flex;
+    /* justify-content: flex-start; 
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;*/
+
+    /* align-items: stretch; 
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline; */
+  
+    /* shorthand property can be used for both justify and align property */
+
+    place-items: baseline center;
+
 }
